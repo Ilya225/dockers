@@ -47,7 +47,7 @@ services:
 # volumes:
   # logvolume01: {}
   rabitmq:
-    image: rabbitmq:3
+    build: ./rabitmq
     ports:
     - "5672:5672"
     - "15672:15672"
