@@ -5,7 +5,8 @@ sudo apt-get install graphviz
 git clone https://github.com/jemalloc/jemalloc
 
 # Configurie jemalloc with profiling enabled
-```./configure --enable-prof --enable-stats --enable-debug  --enable-fill
+```
+./configure --enable-prof --enable-stats --enable-debug  --enable-fill
 make
 make install
 ```
